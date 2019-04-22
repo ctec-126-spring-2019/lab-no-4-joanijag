@@ -1,16 +1,25 @@
 /* style.css */
 
+html{
+  background: url('../img/hotelCalifornia.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.6;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 1.3em;
     font-weight: 500;
+    /* background-color: rgb(142, 156, 221); */
 }
 
-body::after {
+/* body::after {
     background: url('../img/hotelCalifornia.jpg');
-   
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
     content: "";
     opacity: 0.3;
     position: absolute;
@@ -19,7 +28,7 @@ body::after {
     right: 0;
     left: 0;
     z-index: -1;   
-  }
+  } */
   h1{
     /* color: rgb(39, 48, 88);  */
     color: rgb(12, 4, 86);
